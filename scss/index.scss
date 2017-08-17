@@ -1,0 +1,227 @@
+
+// Colors
+$grey1: #4A4A4A;
+
+// Common
+.mg-btm-0 {
+	margin-bottom: 0px;
+}
+
+// Fonts
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('OpenSans-Bold.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url('OpenSans-Semibold.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'OpenSans-ExtraBold';
+  src: url('OpenSans-ExtraBold.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('OpenSans-Regular.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('OpenSans-Light.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'OpenSans-Italic';
+  src: url('OpenSans-Italic.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'OpenSans-LightItalic';
+  src: url('OpenSans-LightItalic.ttf') format('truetype'),
+}
+
+
+// Home page
+.navbarSection {
+	padding-top: 20px;
+
+	a {
+		font-family: "OpenSans-Light";
+		color: #FFFFFF;
+	}
+}
+
+.pageWrap {
+	background: url("images/home_bg.png") no-repeat;
+}
+
+.topSection {
+	min-height: 500px;
+
+	p {
+		font-family: "OpenSans-Light";
+		color: #FFFFFF;
+		padding-top: 140px;
+    	font-size: 30px;
+	}
+	.links {
+		margin-top: 50px;
+
+		a {
+			text-decoration: none;
+			padding: 15px;
+			border-radius: 10px;
+			background: #EE5B21;
+			color: #FFFFFF;
+			border: 2px solid #FFFFFF;
+			font-family: "OpenSans-Light";
+			font-size: 16px;
+		}
+		a:hover {
+			color: #EE5B21;
+			background: #FFFFFF;
+		}
+		a {
+			-webkit-transition: color 0.5s, background 1s;
+    		transition: color 0.5s, background 1s;
+		}
+	}
+}
+
+.mentorSection {
+	background: #FFFFFF;
+
+	h3 {
+		font-family: "OpenSans-Bold";
+		color: $grey1;
+		font-size: 24px;
+		margin-top: 100px;
+	}
+
+	p {
+		font-family: "OpenSans-Light";
+		font-size: 16px;
+		margin-top: 20px;
+	}
+
+	img {
+		width: 75%;
+    	height: 395px;
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    	float: right;
+	}
+}
+
+.statsSection {
+	background: #4A4A4A;
+	color: #FFFFFF;
+
+	img {
+		width: 75%;
+    	height: 395px;
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+	}
+	h3 {
+		font-family: "OpenSans-SemiBold";
+		font-size: 24px;
+		color: #FFFFFF;
+		margin-top: 100px;
+	}
+	.numbersRow {
+		margin-top: 40px;
+		color: #FFFFFF;
+
+		h4 {
+			font-family: "OpenSans-Semibold";
+			font-size: 42px;
+		}
+		h5 {
+			font-family: "OpenSans-Semibold";
+			font-size: 14px;
+		}
+	}
+}
+
+.testimonialsSection {
+	h3 {
+		font-family: "OpenSans-Light";
+		font-size: 24px;
+		color: $grey1;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.videoRow {
+		margin-bottom: 70px;
+	}
+}
+
+.footerSection {
+	background: #2e2d2d;
+	padding-top: 40px;
+
+	.mission {
+		color: #FFFFFF;
+		font-family: "OpenSans-Semibold";
+	}
+	h4 {
+		font-family: "OpenSans-Bold";
+		font-size: 16px;
+		color: #FFFFFF;
+	}
+	ul {
+		list-style-type: none;
+		padding-left: 0px;
+
+		a {
+			color: #FFFFFF;
+			font-family: "OpenSans-Light";
+			font-size: 14px;
+		}
+	}
+	.logo-tag-wrap {
+		padding-left: 35px;
+
+		p {
+			margin-top: 5px;
+			font-family: "OpenSans-Light";
+			font-size: 15px;
+		}
+	}
+}
+.rights {
+	font-family: "OpenSans-Light";
+	font-size: 14px;
+	background: #2e2d2d;
+	padding-top: 100px;
+	color: #FFFFFF;
+}
+
+// About us page
+.aboutUsWrap {
+	background: url("images/about_us_bg.png") 20% 35% no-repeat;
+    min-height: 400px;
+}
+
+.aboutUsTextContainer {
+	padding-top: 50px;
+	padding-bottom: 100px;
+	text-align: center;
+
+	h3 {
+		font-family: "OpenSans-SemiBold";
+		color: $grey1;
+	}
+	p {
+		font-family: "OpenSans-Light";
+		font-size: 16px;
+	}
+	.aboutUsParaWrap {
+		margin-top: 50px;
+	}
+}
+

@@ -1,0 +1,157 @@
+.mg-btm-0 {
+  margin-bottom: 0px; }
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("OpenSans-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url("OpenSans-Semibold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'OpenSans-ExtraBold';
+  src: url("OpenSans-ExtraBold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url("OpenSans-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url("OpenSans-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: 'OpenSans-Italic';
+  src: url("OpenSans-Italic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'OpenSans-LightItalic';
+  src: url("OpenSans-LightItalic.ttf") format("truetype"); }
+.navbarSection {
+  padding-top: 20px; }
+  .navbarSection a {
+    font-family: "OpenSans-Light";
+    color: #FFFFFF; }
+
+.pageWrap {
+  background: url("images/home_bg.png") no-repeat; }
+
+.topSection {
+  min-height: 500px; }
+  .topSection p {
+    font-family: "OpenSans-Light";
+    color: #FFFFFF;
+    padding-top: 140px;
+    font-size: 30px; }
+  .topSection .links {
+    margin-top: 50px; }
+    .topSection .links a {
+      text-decoration: none;
+      padding: 15px;
+      border-radius: 10px;
+      background: #EE5B21;
+      color: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      font-family: "OpenSans-Light";
+      font-size: 16px; }
+    .topSection .links a:hover {
+      color: #EE5B21;
+      background: #FFFFFF; }
+    .topSection .links a {
+      -webkit-transition: color 0.5s, background 1s;
+      transition: color 0.5s, background 1s; }
+
+.mentorSection {
+  background: #FFFFFF; }
+  .mentorSection h3 {
+    font-family: "OpenSans-Bold";
+    color: #4A4A4A;
+    font-size: 24px;
+    margin-top: 100px; }
+  .mentorSection p {
+    font-family: "OpenSans-Light";
+    font-size: 16px;
+    margin-top: 20px; }
+  .mentorSection img {
+    width: 75%;
+    height: 395px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: right; }
+
+.statsSection {
+  background: #4A4A4A;
+  color: #FFFFFF; }
+  .statsSection img {
+    width: 75%;
+    height: 395px;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  .statsSection h3 {
+    font-family: "OpenSans-SemiBold";
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px; }
+  .statsSection .numbersRow {
+    margin-top: 40px;
+    color: #FFFFFF; }
+    .statsSection .numbersRow h4 {
+      font-family: "OpenSans-Semibold";
+      font-size: 42px; }
+    .statsSection .numbersRow h5 {
+      font-family: "OpenSans-Semibold";
+      font-size: 14px; }
+
+.testimonialsSection h3 {
+  font-family: "OpenSans-Light";
+  font-size: 24px;
+  color: #4A4A4A;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+.testimonialsSection .videoRow {
+  margin-bottom: 70px; }
+
+.footerSection {
+  background: #2e2d2d;
+  padding-top: 40px; }
+  .footerSection .mission {
+    color: #FFFFFF;
+    font-family: "OpenSans-Semibold"; }
+  .footerSection h4 {
+    font-family: "OpenSans-Bold";
+    font-size: 16px;
+    color: #FFFFFF; }
+  .footerSection ul {
+    list-style-type: none;
+    padding-left: 0px; }
+    .footerSection ul a {
+      color: #FFFFFF;
+      font-family: "OpenSans-Light";
+      font-size: 14px; }
+  .footerSection .logo-tag-wrap {
+    padding-left: 35px; }
+    .footerSection .logo-tag-wrap p {
+      margin-top: 5px;
+      font-family: "OpenSans-Light";
+      font-size: 15px; }
+
+.rights {
+  font-family: "OpenSans-Light";
+  font-size: 14px;
+  background: #2e2d2d;
+  padding-top: 100px;
+  color: #FFFFFF; }
+
+.aboutUsWrap {
+  background: url("images/about_us_bg.png") 20% 35% no-repeat;
+  min-height: 400px; }
+
+.aboutUsTextContainer {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center; }
+  .aboutUsTextContainer h3 {
+    font-family: "OpenSans-SemiBold";
+    color: #4A4A4A; }
+  .aboutUsTextContainer p {
+    font-family: "OpenSans-Light";
+    font-size: 16px; }
+  .aboutUsTextContainer .aboutUsParaWrap {
+    margin-top: 50px; }
+
+/*# sourceMappingURL=index.css.map */
