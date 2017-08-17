@@ -154,4 +154,28 @@
   .aboutUsTextContainer .aboutUsParaWrap {
     margin-top: 50px; }
 
+.mentorSignupWrap {
+  background: url("images/mentor_signup_bg.png") 20% 35% no-repeat;
+  min-height: 400px; }
+
+.mentorSignupFormWrap {
+  padding-bottom: 100px; }
+  .mentorSignupFormWrap h4 {
+    font-family: "OpenSans-Semibold";
+    color: #4A4A4A;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .mentorSignupFormWrap h5 {
+    font-family: "OpenSans-SemiBold";
+    font-size: 24px;
+    color: #4A4A4A;
+    margin-top: 50px; }
+  .mentorSignupFormWrap p {
+    font-family: "OpenSans-Light";
+    font-size: 15px;
+    color: #4A4A4A;
+    margin-bottom: 5px; }
+  .mentorSignupFormWrap input[type="text"], .mentorSignupFormWrap button {
+    margin-top: 10px; }
+
 /*# sourceMappingURL=index.css.map */

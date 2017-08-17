@@ -225,3 +225,39 @@ $grey1: #4A4A4A;
 	}
 }
 
+// Mentor signup page
+.mentorSignupWrap {
+	background: url("images/mentor_signup_bg.png") 20% 35% no-repeat;
+    min-height: 400px;
+}
+
+.mentorSignupFormWrap {
+	padding-bottom: 100px;
+
+	h4 {
+		font-family: "OpenSans-Semibold";
+		color: $grey1;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	h5 {
+		font-family: "OpenSans-SemiBold";
+		font-size: 24px;
+		color: $grey1;
+		margin-top: 50px;
+	}
+	p {
+		font-family: "OpenSans-Light";
+		font-size: 15px;
+		color: $grey1;
+		margin-bottom: 5px;
+	}
+	input[type="text"], button {
+		margin-top: 10px;
+	}
+}
+
+
+
+
+

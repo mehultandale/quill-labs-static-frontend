@@ -9,26 +9,148 @@
 </head>
 <body>
 
-	<a href="/" >
-		<img src="images/logo.png" />
-	</a>
+	<div class="mentorSignupWrap" >
+		<div class="container" >
+
+			<!-- Navbar -->
+			<div class="row navbarSection" >
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center" >
+					<a href="/" >
+						<img src="images/logo.png" alt="Quill Labs" height="20" width="150" />
+					</a>
+				</div>
+				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 text-center" >
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12" >
+					<a href="about-us.html" >About us</a>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" >
+					<a href="mentor-signup.html" >Mentor signup</a>
+				</div>
+			</div>
+			<!-- end Navbar -->
+
+		</div>
+	</div>
 
 	<div class="container" >
+		<div class="mentorSignupFormWrap" >
 
-		<h4>Mentor Signup</h4>
-		<p>Share your knowledge. Make new friends. Uplift people. Make a difference!</p>
-		<p>And on top of that, the cherry on the cake: Get paid for it!</p>
+			<h4 class="text-center" >Mentor Signup</h4>
+			<p class="text-center" >Share your knowledge. Make new friends. Uplift people. Make a difference!</p>
+			<p class="text-center" >And on top of that, the cherry on the cake: Get paid for it!</p>
 
-		<h5>What will be my roles?</h5>
-		<p>Go to a Quill Labs associated college on a weekend once a month, and teach the students what you’re passionate about. And stay in touch with students for 2 months.</p>
-		<p>Once you signup with us, we’ll tell you the location of the college, the date (whichever suits you) and what you’ll be teaching (something that you’re already good at!). We’ll do all the heavy lifting of managing your schedule according to your convenience.</p>
+			<h5>What will be my roles?</h5>
+			<p>Go to a Quill Labs associated college on a weekend once a month, and teach the students what you’re passionate about. And stay in touch with students for 2 months.</p>
+			<p>Once you signup with us, we’ll tell you the location of the college, the date (whichever suits you) and what you’ll be teaching (something that you’re already good at!). We’ll do all the heavy lifting of managing your schedule according to your convenience.</p>
 
-		<h5>Sign up</h5>
-		<input type="text" placeholder="Your name" />
-		<input type="text" placeholder="Your mobile number" />
-		<button>Done</button>
-
+			<h5>Sign up</h5>
+			<div class="row" >
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+					<input id="mentorName" type="text" class="form-control" placeholder="Your name" />
+					<input id="mentorNumber" type="text" class="form-control" placeholder="Your mobile number" />
+					<button class="btn btn-primary" onclick="writeUserData(document.getElementById('mentorName').value, document.getElementById('mentorNumber').value)" >Done</button>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" >
+				</div>
+			</div>
+		</div>
 	</div>
+
+	<div class="container-fluid" >
+		<!-- Footer -->
+		<div class="row footerSection" >
+			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" >
+				<div class="logo-tag-wrap" >
+					<img src="images/logo.png" />
+					<p class="mission" >“Bridging the gap  between Industry and Academia”</p>
+				</div>
+			</div>
+			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12" >
+
+				<!-- Links -->
+				<div class="row" >
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+						<h4>Quill Labs</h4>
+						<ul>
+							<li>
+								<a href="about-us.html" >About Us</a>
+							</li>
+							<li>
+								<a href="mentor-signup.html" >Mentor Signup</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+						<h4>What we do</h4>
+						<ul>
+							<li>
+								<a target="_BLANK" href="MEQ.pdf" >MEQ Program</a>
+							</li>
+							<li>
+								<a target="_BLANK" href="https://www.facebook.com/quilllabs/events/" >Workshops</a>
+							</li>
+							<li>
+								<a target="_BLANK" href="https://www.youtube.com/channel/UCptLgynZoQCQ3QZOUW5Gs2A" >Webinars</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+						<h4>Let's be friends</h4>
+						<ul>
+							<li>
+								<a target="_BLANK" href="https://www.facebook.com/quilllabs" >Facebook</a>
+							</li>
+							<li>
+								<a target="_BLANK" href="https://twitter.com/quill_labs" >Twitter</a>
+							</li>
+							<li>
+								<a target="_BLANK" href="https://www.instagram.com/quill.labs/" >Instagram</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end Links -->
+			</div>
+		</div>
+		<div class="row text-center rights" >
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+				<p>&copy; 2017 Quill Labs All Rights Reserved.</p>
+			</div>
+		</div>
+		<!-- end Footer -->
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+	<script type="text/javascript" >
+		// Set the configuration for your app
+		// TODO: Replace with your project's config object
+		var config = {
+			apiKey: "AIzaSyAKXCoFAA1FXTYi49VabqTGkDgposE8wEk",
+			authDomain: "quill-labs.firebaseapp.com",
+			databaseURL: "https://quill-labs.firebaseio.com",
+			storageBucket: "bucket.appspot.com"
+		};
+		firebase.initializeApp(config);
+
+		// Get a reference to the database service
+		var database = firebase.database();
+
+		function writeUserData(mentorName, mentorNumber) {
+			firebase.database().ref('mentors/' + mentorName).push({
+				mentorName: mentorName,
+				mentorNumber: mentorNumber
+			}).then(function(data) {
+				if(data) {
+					document.getElementById('mentorName').value = "";
+					document.getElementById('mentorNumber').value = "";
+					alert("Thanks for getting in touch! We'll get back to you in less than 24 hours.");
+				}
+			});
+		}
+	</script>
+	<!-- end Scripts -->
 
 </body>
 </html>
